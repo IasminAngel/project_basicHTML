@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão2</title>
+</head>
+<body>
+    <h1 id="inicio">Exercício de HTML</h1>
+    <p>Acesse o <a href="https://www.w3schools.com/" target="_blank">W3Schools</a> para mais tutoriais sobre HTML.</p>
+    
+    <a href="#formulario">Ir para o Formulário</a>
+    
+    <h2>Tabela de Horários</h2>
+
+    <table border="1">
+        <thead>
+            <th>Dia</th>
+            <th>Horários</th>
+            <th>Atividade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segunda</td>
+                <td>08:00 - 12:00</td>
+                <td>Aulas</td>
+            </tr>
+            <tr>
+                <td>Terça</td>
+                <td>13:00 - 17:00</td>
+                <td>Estudo em grupo</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>08:00 - 12:00</td>
+                <td>Aulas</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Imagem de Exemplo</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs31U41UJZiHLA1XEhpITgH81yM6_kXweaPA&s" alt="Exemplo de imagens">
+
+    <h2>Lista de Definição: Termos de Programação</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Liguagem de Marcação para construção de páginas web.</dd>
+        <dt>CSS</dt>
+        <dd>Folhas de estilo usadas para estilizar páginas HTML</dd>
+        <dt>JavaScript</dt>
+        <dd>Liguagem de programação usada para adicionar interatividade às páginas web.</dd>
+    </dl>
+    <h2 id="formulario">Formulário de Cadastro</h2>
+    <form action="salvar_dados.php" method="post">
+        <label>Nome:</label> <br>
+        <input type="text"> <br><br>
+        <label>Email:</label> <br>
+        <input type="text"> <br><br>
+        <label>Senha:</label> <br>
+        <input type="text"> <br><br>
+        <label>Gênero:</label> <br>
+        <select id="genero">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+        </select> 
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form> <br>
+    <a href="#inicio">Voltar ao topo</a>
+</body>
+</html>
