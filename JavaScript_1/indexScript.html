@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizando - Aula 1º JavaScript</title>
+</head>
+
+<body>
+
+
+    <h1 align="center">Organizando - Aula 1º JavaScript</h1>
+
+    <hr>
+
+    <!-- Toda vez que for executar algum arquivo com o click do botão, é só aplicar -->
+    <!-- A ação com uma função criada no JavaScript -->
+
+    <div align="center">
+        <p><i>Para verificar a sua nota, envie a nota:</i></p>
+
+        <label>Insira a 1º nota:</label> <br>
+        <input type="text" id="nota" placeholder="Digite a nota..."> <br><br>
+
+        <label>Insira a 2º nota :</label> <br>
+        <input type="text" id="nota2" placeholder="Digite a nota..."> <br><br>
+
+        <button onclick="inserir_nota()">Resultado</button>
+        <br><br>
+
+
+        <label>Insira nota para classificar em ABC...:</label> <br>
+        <input type="text" id="notaABC" placeholder="Digite a nota..."> <br><br>
+        <button onclick="inserir_ABC()">Resultado ABC</button>
+
+        <h2>Nota Final:</h2>
+        <label id="Final"></label>
+
+
+        <br>
+        <hr>
+        <br>
+
+
+        <h2>Resultado:</h2>
+        <label id="resultado"></label>
+        <br><br>
+
+
+        <hr>
+
+        <h2>Resultado ABCDEF:</h2>
+        <label id="abc"></label>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+<!-- Converter celsius em faraheits -->
+
+</html>
